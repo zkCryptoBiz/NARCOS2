@@ -1,0 +1,38 @@
+
+
+
+
+
+
+
+@keyframes popupEffect1 {
+
+    50% {
+        scale: 1.03;
+        box-shadow: 
+            0 0 1px 7px rgb(255, 255, 255,0.2)
+        ;
+    }
+    
+}
+
+@keyframes tracksMove {
+
+    100% {
+        transform: translate(-170%, 0);
+    }
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+	
+@keyframes tracksMove {
+
+    100% {
+        transform: translate(-50%, 0);
+    }
+  
+}
+
+}
